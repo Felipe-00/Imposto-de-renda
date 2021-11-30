@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inconsolata:wght@800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div id="main">
+        <img src="./imagens/download.png" /> 
+        <h1>Calculadora de salário líquido</h1>
+        <div id="textos">
+            <div id="label">
+                <label>Nome:</label>
+                    <label> Nº de dependentes:</label>
+                <label>Salário bruto em R$:</label>
+            </div>
+            <div id="input">
+                    <input type="text" id="nome"> 
+                    <input type="text" id="numDependentes">
+                    <input type="text" id="salarioBruto">
+            </div>
+        </div>
+        <div id="button">
+            <input type="button" value="Calcular" id="mostrarSalarioLiquido">
+        </div>
+            <pre id="informacoes"> </pre>
+            
+            <table>
+                <thead>
+                <tr>
+                    <td>Nome</td> 
+                    <td>Salário Bruto</td>
+                    <td>Desconto INSS (%)</td>
+                    <td>Desconto INSS R$</td>
+                    <td>Desconto IRRF (%)</td>
+                    <td>Desconto IRRF R$</td>
+                    <td>Salário Líquido</td>
+                </tr>
+                </thead>
+                <tbody>
+        
+                </tbody>
+            </table>
+        
+    </div>
+    
+
+    
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
